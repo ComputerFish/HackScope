@@ -1,4 +1,5 @@
 # Hacking together a simple oscilloscope to fix my car
+![Setup](https://github.com/user-attachments/assets/694c1762-d669-4e99-b1a1-d275db9a0e99)
 
 ## Overview
 
@@ -23,3 +24,12 @@ GND – Ground
 SIG – Signal
 ```
 **My idea was simple**: run the engine as usual, tap into the signal wire, and read out the voltage values. If the data was erratic or inconsistent, it would indicate a sensor malfunction. But before testing it on the car, I decided to perform a bench test to establish a baseline.
+
+## Let's get some data!
+![Bench testing](https://github.com/user-attachments/assets/b4818cc0-cd37-493f-aba8-583ce40601b8)
+
+So it seemed to me like a good idea to remove the sensor from the car and get some baseline readings to see what we are working with. In order to do this I had to
+ solder some wires to the connector which wasn't too hard and then I had to wire up the arduino and think of how I am going to aporach reading data from this device, with no documentation available I had to just go off instinct to what I thought would work for a sensor like this.
+### 
+
+
