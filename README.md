@@ -17,9 +17,9 @@ I had already spent a good amount of time digging through MINI Cooper forums loo
 Finally, I suspected the fuel tank pressure sensor (FTPS) as the last possible culprit. I didn’t want to replace this part blindly, as it was quite expensive. Instead, I devised a plan to confirm my suspicions before ordering a new part.
 
 I knew the sensor had three wires, and from my previous experience with sensors, this likely meant the following configuration:
-
-VDD – Power (Voltage)\
-GND – Ground\
-SIG – Signal\
-
+```
+VDD – Power (Voltage)
+GND – Ground
+SIG – Signal
+```
 **My idea was simple**: run the engine as usual, tap into the signal wire, and read out the voltage values. If the data was erratic or inconsistent, it would indicate a sensor malfunction. But before testing it on the car, I decided to perform a bench test to establish a baseline.
