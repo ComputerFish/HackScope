@@ -112,6 +112,7 @@ void loop() {
 
 ## 📊 Live Data Results
 
+![Live data](https://github.com/user-attachments/assets/1c464572-7084-45a7-bc1b-90700d530a82)
 
 
 This is what the Serial Plotter showed while the engine was running. The voltage and pressure readings were unstable enough to make me confident that the sensor wasn't working correctly.
